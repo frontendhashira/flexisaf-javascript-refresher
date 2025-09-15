@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ES6 Learning Practice</title>
+    <link rel="stylesheet" href="/dist/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="header__title">ES6 Learning Practice</h1>
+      </header>
+
+      <main>
+        <!-- Presentation Card -->
+        <div class="card">
+          <h2 class="card__title">Learning Outcome Presentation</h2>
+
+          <div class="demo-section">
+            <h3 class="demo-section__title">ES6 Features Mastered:</h3>
+            <ul>
+              <li><strong>ES6 Features:</strong> Modern JavaScript syntax and capabilities</li>
+              <li><strong>Scope:</strong> Understanding let, const, and var differences</li>
+              <li><strong>Arrow Functions:</strong> Concise function syntax and lexical this</li>
+              <li><strong>Array Methods:</strong> map(), filter(), reduce(), forEach()</li>
+              <li><strong>Objects:</strong> Destructuring, spread operator, shorthand properties</li>
+            </ul>
+          </div>
+
+          <div class="demo-section">
+            <h3 class="demo-section__title">Demonstration Buttons:</h3>
+            <button class="btn btn--primary" onclick="demonstrateScope()">Scope</button>
+            <button class="btn btn--primary" onclick="demonstrateArrowFunctions()">Arrow Functions</button>
+            <button class="btn btn--primary" onclick="demonstrateArrayMethods()">Array Methods</button>
+            <button class="btn btn--primary" onclick="demonstrateObjects()">Objects & ES6 Features</button>
+            <button class="btn btn--secondary" onclick="clearConsole()">Clear Console</button>
+          </div>
+        </div>
+
+        <!-- Array Implementation Card -->
+        <div class="card">
+          <h2 class="card__title">Array Implementation on HTML Webpage</h2>
+
+          <div class="demo-section">
+            <h3 class="demo-section__title">Interactive Array Operations:</h3>
+            <button class="btn btn--primary" onclick="displayStudentData()">Show Student Data Array</button>
+            <button class="btn btn--primary" onclick="filterHighScores()">Filter High Scores (>85)</button>
+            <button class="btn btn--primary" onclick="calculateAverages()">Calculate Class Averages</button>
+            <button class="btn btn--primary" onclick="transformDataForDisplay()">Transform Data for Display</button>
+          </div>
+
+          <div class="array-demo">
+            <div id="arrayOutput" class="array-demo__output">
+              <p><strong>Array operations will appear here...</strong></p>
+              <p>Click the buttons above to see ES6 array methods in action!</p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="/es6-example.js"></script>
+  </body>
+</html>
