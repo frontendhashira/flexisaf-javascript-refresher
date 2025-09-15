@@ -285,7 +285,7 @@ const transformDataForDisplay = () => {
 
 // Initialize page
 document.addEventListener("DOMContentLoaded", () => {
-	console.info("ES6 Learning Practice page loaded successfully!");
+	console.info("Javascript Referesher Learning Practice page loaded successfully!");
 	console.info("This page demonstrates ES6 features and array implementation");
 	console.info("Click the buttons above to see demonstrations");
 });
